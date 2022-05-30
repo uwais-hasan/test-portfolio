@@ -1,0 +1,69 @@
+
+@import "../../Sass";
+.section-home{
+
+  @media (max-width: 575px){
+   padding-top: 40px;
+  }
+  .content-home{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 135px 70px 85px;
+    gap: 40px;
+
+
+    @media (max-width: 575px) {
+
+      align-items: center;
+      padding: 50px 20px;
+      flex-direction: column-reverse;
+    }
+    .content-image{
+     width: 35%;
+      position: relative;
+      @media (max-width: 575px){
+        width: 50%;
+      }
+      img{
+        width: 100%;
+      }
+
+
+    }
+    .content-info{
+
+      width: 65%;
+      @media (max-width: 575px){
+        width: 100%;
+      }
+      .style-button{
+        color: white;
+        width: 200px;
+        padding:  15px;
+        border-radius: 40px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        margin-top: 100px;
+
+
+      }
+      .typeWrite{
+        width: 0;
+white-space: nowrap;
+        overflow: hidden;
+        display: block;
+       //animation: typeWriteEffect 2s steps(12) 1s both  infinite;
+      }
+    }
+  }
+}
+
+//@keyframes typeWriteEffect {
+//  from{
+//    width: 0;
+//  }to{
+//  width: 107px;
+//     }
+//}

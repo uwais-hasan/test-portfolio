@@ -1,0 +1,64 @@
+@import "GlobalClass";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@300&display=swap');
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App{
+ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.icon-bar{
+  position: absolute;
+  top: 8px;
+  z-index: 1;
+  left: 12px;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+}
+//.sideBar{
+//  width: 25%;
+//  display: grid;
+//  @media (max-width: 575px) {
+//    width: 50%;
+//  }
+//}
+
+
+
+
+
+.style{
+  //width: 100vh;
+
+  //background: #2f27ab;
+  //position: absolute;
+  //right: 0%;
+  //width: 100%;
+  //transition: .4s ease-in-out;
+  //height: 200px;
+  //
+  //p{
+  //  color: white;
+  //  font-size: 30px;
+  //}
+}
+.hidden{
+  //position: absolute;
+  //right: -100%;
+}
+
+
+

@@ -1,0 +1,43 @@
+.section-services {
+  padding: 50px 30px;
+}
+.section-services .content-services {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.section-services .row {
+  width: 29%;
+  text-align: center;
+  color: white;
+  background-color: #222121;
+  padding: 20px 10px;
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .section-services .row {
+    width: 42%;
+  }
+}
+@media (max-width: 575px) {
+  .section-services .row {
+    width: 100%;
+  }
+}
+.section-services .row:hover svg {
+  font-size: 40px;
+  border-radius: 50%;
+  background: orange;
+  padding: 10px;
+  fill: white;
+}
+.section-services .row p {
+  max-width: 252px;
+  margin: 0 auto;
+}
+.section-services .row svg {
+  transition: 0.3s ease-in-out;
+}
+
+/*# sourceMappingURL=Services.css.map */

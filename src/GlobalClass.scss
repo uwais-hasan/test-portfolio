@@ -1,0 +1,22 @@
+
+@import "Sass";
+.text-decoration{
+  text-decoration: none;
+}
+.style-title{
+  font-size: $font-size-title;
+  font-weight: $font-bold;
+
+}
+.style-under-title{
+  font-size: $font-size-under-title;
+}
+.style-para{
+  font-size: $font-size-para;
+}
+.bold{
+  font-weight: $font-bold;
+}
+.opacity-8{
+  opacity: .8;
+}

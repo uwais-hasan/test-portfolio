@@ -1,0 +1,101 @@
+
+@import "../../Sass";
+
+.section-contact{
+background-color: $background-content;
+padding: 50px 30px;
+  color: white;
+
+
+    .intro{
+      text-align: center;
+      padding-top: 50px;
+      .style-under-title{
+        font-size: 15px;
+      }
+      .style-para:nth-of-type(1){
+        font-weight: bold;
+        font-size: 24px!important;
+      }
+
+    }
+  .contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    @media (max-width: 768px) {
+      justify-content: space-evenly;
+    }
+    @media (max-width: 575px) {
+      flex-direction: column;
+      gap: 30px;
+    }
+    .row{
+      text-align: center;
+      @media (max-width: 768px) {
+        padding: 20px;
+      }
+      .uppercase{
+        text-transform: uppercase;
+
+      }
+      .style-span{
+
+        font-size: 15px;
+      }
+    }
+  }
+.section-sendEmail{
+  text-align: center;
+  .intro-email{
+    padding-top: 30px;
+  }
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 30px;
+    justify-content: space-between;
+    input,textarea{
+
+      padding: 12px;
+      border-radius: 19px;
+      outline: none;
+      border: none;
+      background-color: $background-sideBar;
+      color: white;
+    }
+    input:nth-of-type(1){
+width: 46%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+    input:nth-of-type(2){
+      width: 46%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+    input:nth-of-type(3){
+      width: 100%;
+    }
+  textarea{
+    width: 100%;
+    height: 120px;
+  }
+    .button{
+      color: white;
+
+      padding: 20px;
+      width: 222px;
+      border-radius: 28px;
+      font-size: 20px;
+      outline: none;
+      border: none;
+    }
+  }
+}
+
+}

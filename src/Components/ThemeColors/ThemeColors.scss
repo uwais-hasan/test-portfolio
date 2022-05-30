@@ -1,0 +1,61 @@
+@import "../../Sass";
+
+.section-themeColors {
+  position: fixed;
+  top: 51px;
+  z-index: 10;
+  //right: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: .3s ease-in-out;
+  .themeColors {
+    //background-color: $background-sideBar;
+    padding: 20px;
+    right: 0;
+    width: 200px;
+    box-shadow: 1px 0px 7px -3px white;
+    .style-para {
+      padding-bottom: 10px;
+      margin: 0;
+    }
+
+    .colors {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      gap: 10px;
+
+      .color {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        cursor: pointer;
+
+      }
+    }
+  }
+  .icons{
+    display: flex;
+    flex-direction: column;
+    transition: .3s ease-in-out;
+    gap: 10px;
+
+    svg{
+      cursor: pointer;
+    }
+    .setting{
+      $speed: .7s;
+      animation: circ-anim 3s linear infinite;
+    }
+  }
+
+}
+@keyframes circ-anim {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

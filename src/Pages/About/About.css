@@ -1,0 +1,137 @@
+.section-about {
+  padding: 50px 30px;
+}
+.section-about .about-me .style-under-title {
+  padding-top: 50px;
+}
+.section-about .skills-info {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .section-about .skills-info {
+    flex-direction: column;
+  }
+}
+.section-about .skills-info .info {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+@media (max-width: 768px) {
+  .section-about .skills-info .info {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+.section-about .skills-info .info .row:nth-of-type(1) {
+  width: 41%;
+}
+@media (max-width: 768px) {
+  .section-about .skills-info .info .row:nth-of-type(1) {
+    width: 100%;
+  }
+}
+.section-about .skills-info .info .row:nth-of-type(2) {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section-about .skills-info .info .row:nth-of-type(2) {
+    width: 100%;
+  }
+}
+.section-about .skills-info .info .row p {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5411764706);
+  padding: 8px 0;
+  margin: 0;
+}
+.section-about .skills-info .info .cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .section-about .skills-info .info .cv {
+    gap: 0;
+  }
+}
+.section-about .skills-info .info .cv button {
+  color: white;
+  padding: 10px;
+  width: 160px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.section-about .skills-info .skills {
+  width: 40%;
+}
+@media (max-width: 768px) {
+  .section-about .skills-info .skills {
+    width: 100%;
+  }
+}
+.section-about .skills-info .skills .row-skills {
+  padding: 10px;
+}
+.section-about .skills-info .skills .row-skills .type-degree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.section-about .skills-info .skills .row-skills .progress {
+  background-color: rgba(58, 54, 54, 0.6196078431);
+  width: 100%;
+  height: 6px;
+  position: relative;
+  border-radius: 10px;
+}
+.section-about .educations-experiences {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 30px;
+  color: white !important;
+}
+@media (max-width: 575px) {
+  .section-about .educations-experiences {
+    flex-direction: column;
+  }
+}
+.section-about .educations-experiences .educations, .section-about .educations-experiences .experiences {
+  width: 50%;
+}
+@media (max-width: 575px) {
+  .section-about .educations-experiences .educations, .section-about .educations-experiences .experiences {
+    width: 100%;
+  }
+}
+.section-about .educations-experiences .educations .content-education, .section-about .educations-experiences .educations .content-experience, .section-about .educations-experiences .experiences .content-education, .section-about .educations-experiences .experiences .content-experience {
+  background-color: #222121;
+  border-radius: 28px;
+  border: 3px solid rgba(255, 255, 255, 0.168627451);
+  position: relative;
+  padding: 20px;
+}
+.section-about .educations-experiences .educations .content-education .education, .section-about .educations-experiences .educations .content-education .experience, .section-about .educations-experiences .educations .content-experience .education, .section-about .educations-experiences .educations .content-experience .experience, .section-about .educations-experiences .experiences .content-education .education, .section-about .educations-experiences .experiences .content-education .experience, .section-about .educations-experiences .experiences .content-experience .education, .section-about .educations-experiences .experiences .content-experience .experience {
+  margin-left: 26px;
+}
+.section-about .educations-experiences .educations .date, .section-about .educations-experiences .experiences .date {
+  position: relative;
+}
+.section-about .educations-experiences .educations .date svg, .section-about .educations-experiences .experiences .date svg {
+  padding-right: 15px;
+}
+.section-about .educations-experiences .educations .style-para, .section-about .educations-experiences .experiences .style-para {
+  max-width: 450px;
+}
+
+/*# sourceMappingURL=About.css.map */

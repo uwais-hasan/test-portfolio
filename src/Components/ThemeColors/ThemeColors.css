@@ -1,0 +1,54 @@
+.section-themeColors {
+  position: fixed;
+  top: 51px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: 0.3s ease-in-out;
+}
+.section-themeColors .themeColors {
+  padding: 20px;
+  right: 0;
+  width: 200px;
+  box-shadow: 1px 0px 7px -3px white;
+}
+.section-themeColors .themeColors .style-para {
+  padding-bottom: 10px;
+  margin: 0;
+}
+.section-themeColors .themeColors .colors {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+.section-themeColors .themeColors .colors .color {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.section-themeColors .icons {
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  gap: 10px;
+}
+.section-themeColors .icons svg {
+  cursor: pointer;
+}
+.section-themeColors .icons .setting {
+  animation: circ-anim 3s linear infinite;
+}
+
+@keyframes circ-anim {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=ThemeColors.css.map */

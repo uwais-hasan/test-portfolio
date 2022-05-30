@@ -1,0 +1,57 @@
+@media (max-width: 575px) {
+  .section-home {
+    padding-top: 40px;
+  }
+}
+.section-home .content-home {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 135px 70px 85px;
+  gap: 40px;
+}
+@media (max-width: 575px) {
+  .section-home .content-home {
+    align-items: center;
+    padding: 50px 20px;
+    flex-direction: column-reverse;
+  }
+}
+.section-home .content-home .content-image {
+  width: 35%;
+  position: relative;
+}
+@media (max-width: 575px) {
+  .section-home .content-home .content-image {
+    width: 50%;
+  }
+}
+.section-home .content-home .content-image img {
+  width: 100%;
+}
+.section-home .content-home .content-info {
+  width: 65%;
+}
+@media (max-width: 575px) {
+  .section-home .content-home .content-info {
+    width: 100%;
+  }
+}
+.section-home .content-home .content-info .style-button {
+  color: white;
+  width: 200px;
+  padding: 15px;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 100px;
+}
+.section-home .content-home .content-info .typeWrite {
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
+/*# sourceMappingURL=Home.css.map */

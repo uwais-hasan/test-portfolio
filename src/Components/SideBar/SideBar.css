@@ -1,0 +1,65 @@
+.section-SideBar {
+  background: #222121;
+  padding: 20px 40px 100px;
+  z-index: 1;
+}
+@media (max-width: 575px) {
+  .section-SideBar {
+    padding: 10px;
+  }
+}
+.section-SideBar .border-name p {
+  font-size: 25px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.section-SideBar .border-name p:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-right: 3px solid #fa5b0f;
+  border-top: 3px solid #fa5b0f;
+  right: 20%;
+  top: 0;
+}
+.section-SideBar .border-name p:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-left: 3px solid #fa5b0f;
+  border-bottom: 3px solid #fa5b0f;
+  left: 20%;
+  bottom: -15px;
+}
+.section-SideBar .name-section {
+  text-align: center;
+  padding: 0 32px;
+}
+@media (max-width: 575px) {
+  .section-SideBar .name-section {
+    padding: 0;
+  }
+}
+.section-SideBar .name-section ul {
+  list-style: none;
+  padding: 100px 0 20px 0;
+}
+.section-SideBar .name-section ul li {
+  padding: 30px 20px 6px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5411764706);
+}
+.section-SideBar .name-section ul li a {
+  font-size: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=SideBar.css.map */

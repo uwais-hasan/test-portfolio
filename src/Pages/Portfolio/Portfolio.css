@@ -1,0 +1,49 @@
+.section-portfolio {
+  padding: 50px 30px;
+}
+.section-portfolio .content-portfolio {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.section-portfolio .content-portfolio .row {
+  width: 30%;
+  height: 300px;
+  position: relative;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .section-portfolio .content-portfolio .row {
+    width: 45%;
+  }
+}
+@media (max-width: 575px) {
+  .section-portfolio .content-portfolio .row {
+    width: 100%;
+  }
+}
+.section-portfolio .content-portfolio .row img {
+  width: 100%;
+  height: 100%;
+}
+.section-portfolio .content-portfolio .row .icons {
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+}
+.section-portfolio .content-portfolio .row:hover {
+  opacity: 0.3;
+}
+.section-portfolio .content-portfolio .row:hover .icons {
+  opacity: 1;
+  bottom: 40%;
+}
+
+/*# sourceMappingURL=Portfolio.css.map */
