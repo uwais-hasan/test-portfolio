@@ -26,15 +26,7 @@ const Portfolio = () => {
                    </div>
                 </div>
                 <div className='row'>
-                    <img src='./Img/project-2.jpeg'/>
-                    <div className='icons'>
-                        <a  href='https://github.com/owies-hassan/owies-newsletter'>  <Github fontSize='50px' color='white'/></a>
-                        <a  href='http://owies-h-template.surge.sh'>   <Globe fontSize='50px' color='white'/></a>
-
-                    </div>
-                </div>
-                <div className='row'>
-                    <img src='./Img/project-3.jpeg'/>
+                    <img src='./Img/project-1.jpeg'/>
                     <div className='icons'>
                         <a  href='https://github.com/owies-hassan/owies-newsletter'>  <Github fontSize='50px' color='white'/></a>
                         <a  href='http://owies-h-template.surge.sh'>   <Globe fontSize='50px' color='white'/></a>
@@ -50,7 +42,7 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className='row'>
-                    <img src='./Img/project-2.jpeg'/>
+                    <img src='./Img/project-1.jpeg'/>
                     <div className='icons'>
                         <a  href='https://github.com/owies-hassan/owies-newsletter'>  <Github fontSize='50px' color='white'/></a>
                         <a  href='http://owies-h-template.surge.sh'>   <Globe fontSize='50px' color='white'/></a>
@@ -58,7 +50,15 @@ const Portfolio = () => {
                     </div>
                 </div>
                 <div className='row'>
-                    <img src='./Img/project-3.jpeg'/>
+                    <img src='./Img/project-1.jpeg'/>
+                    <div className='icons'>
+                        <a  href='https://github.com/owies-hassan/owies-newsletter'>  <Github fontSize='50px' color='white'/></a>
+                        <a  href='http://owies-h-template.surge.sh'>   <Globe fontSize='50px' color='white'/></a>
+
+                    </div>
+                </div>
+                <div className='row'>
+                    <img src='./Img/project-1.jpeg'/>
                     <div className='icons'>
                         <a  href='https://github.com/owies-hassan/owies-newsletter'>  <Github fontSize='50px' color='white'/></a>
                         <a  href='http://owies-h-template.surge.sh'>   <Globe fontSize='50px' color='white'/></a>
