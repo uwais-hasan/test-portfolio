@@ -36,7 +36,7 @@ const Contact = () => {
                    <div className='row'>
                        <GeoAltFill fontSize='30px' color={color}/>
                        <p className='style-para'>Email</p>
-                       <span className='style-span opacity-8'>owie.h.hassan@gmail.com</span>
+                       <span className='style-span opacity-8'>uwais.h.a.hasan@gmail.com</span>
                    </div>
                    <div className='row'>
                        <Globe2  fontSize='30px' color={color}/>

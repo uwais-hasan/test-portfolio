@@ -57,11 +57,11 @@ const Home = () => {
                    {/*<motion.span variants={snake} animate='visible' custom={3}></motion.span>*/}
                    {/*<motion.span variants={snake} animate='visible' custom={4}></motion.span>*/}
 
-                   <p className='style-title'>hello my name is owies hassan</p>
+                   <p className='style-title'>hello my name is Uwais hasan</p>
                    <p className='style-title'>I am a
                        <span style={ style.color}>
                            <Typewriter
-                               words={[ ' FrontEnd', ' BackEnd', ' unKnow', ' end']}
+                               words={[ ' Web Developer', ' BackEnd', ' FrontEnd',' ']}
                                loop
                                cursor
                                cursorStyle='|'
