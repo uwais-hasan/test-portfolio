@@ -61,7 +61,7 @@ const Home = () => {
                    <p className='style-title'>I am a
                        <span style={ style.color}>
                            <Typewriter
-                               words={[ 'Web Developer', ' BackEnd', ' FrontEnd',]}
+                               words={[ ' Web Developer ' , ' BackEnd ' , ' FrontEnd ' ,]}
                                loop
                                cursor
                                cursorStyle='|'

@@ -20,7 +20,7 @@ const SideBar = ({toggle,setToggle}) => {
     return (
         <div style={{position: widthWin <= 575 ? 'static' : 'fixed'}} className='section-SideBar'>
             <div className='border-name'>
-                <p>Owies</p>
+                 <p>Uwais</p>
             </div>
             <div className='name-section'>
                 <ul className='list-style'>>
